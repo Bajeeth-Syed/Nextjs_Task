@@ -13,23 +13,18 @@ This project is a simple web application that renders a table and allows users t
 ## Usage
 
 1. **Installation:**
-   - Clone the repository: `git clone <repository-url>`
-   - Open `index.html` in your web browser.
+   - Clone the repository
+   - run npm i in terminal
+   - After that run the command `npm run dev` in terminal
+   - Open the URL in your web browser.
 
 2. **How to Use:**
    - Click on the headers ("Name" or "Language") to sort the table.
    - Click again on the same header to toggle between ascending and descending order.
+   - At the bottom, you can find pagination 
 
 ## Technologies Used
 
 - HTML
 - CSS
-- JavaScript
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests. Contributions are welcome!
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+- Nextjs
