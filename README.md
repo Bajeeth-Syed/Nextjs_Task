@@ -14,7 +14,7 @@ This project is a simple web application that renders a table and allows users t
 
 1. **Installation:**
    - Clone the repository
-   - run npm i in terminal
+   - run `npm i` in terminal
    - After that run the command `npm run dev` in terminal
    - Open the URL in your web browser.
 
