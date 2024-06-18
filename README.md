@@ -1,25 +1,35 @@
-Table Renderer App
-This project is a simple table rendering application designed to display data and allow users to sort it based on different criteria.
+# Table Renderer
 
-Features
-Table Rendering: Displays data in a tabular format.
-Sorting: Users can sort the table by clicking on column headers.
-Sort by Name: Clicking on the "Name" column header sorts the table alphabetically by name.
-Sort by Language: Clicking on the "Language" column header sorts the table alphabetically by programming language.
-Ascending/Descending Order: Users can toggle between ascending and descending order by clicking on the sorting order icon next to the column header.
-Usage
-Installation:
+This project is a simple web application that renders a table and allows users to sort it dynamically based on different columns and sorting orders.
 
-Clone the repository: git clone <repository-url>
-Navigate to the project directory: cd table-renderer
-Setup:
+## Features
 
-Open index.html in your web browser.
-Sorting:
+- **Table Rendering:** Displays data in a tabular format.
+- **Sorting:**
+  - **Sort by Name:** Clicking on "Name" sorts the table alphabetically by name.
+  - **Sort by Language:** Clicking on "Language" sorts the table alphabetically by programming language.
+  - **Ascending/Descending Order:** Users can toggle between ascending and descending order by clicking on the sorting icon next to each column header.
 
-Click on the column headers ("Name" or "Language") to sort the table based on that column.
-Click again to toggle between ascending and descending order.
-Development
-This project is built using HTML, CSS, and JavaScript.
-Feel free to fork and modify the code to suit your needs.
-Contributions are welcome via pull requests.
+## Usage
+
+1. **Installation:**
+   - Clone the repository: `git clone <repository-url>`
+   - Open `index.html` in your web browser.
+
+2. **How to Use:**
+   - Click on the headers ("Name" or "Language") to sort the table.
+   - Click again on the same header to toggle between ascending and descending order.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
